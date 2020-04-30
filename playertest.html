@@ -1,0 +1,22 @@
+<html>
+<head>
+    <title>Music Player</title>
+    <link rel="stylesheet" href="player.css">
+    <script src="player.js"></script>
+
+</head>
+<body>
+    <img src="player.png" id="background" />
+    <audio src="songs/1.mp3" id="song"></audio>
+
+    <div class="container">  
+        <div class="box"></div>      
+            <img src="play.png" onclick="playPause()" id="play-pause" />
+            <img src="forward.png" onclick="nextSong()" id="next-song" />
+            <img src="backward.png" onclick="previousSong()" id="previous-song" />
+
+        <div class="song-artist">Lipps Inc</div>
+        <div class="song-title">Funky Town</div>
+    </div>
+</body>
+</html>
